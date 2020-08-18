@@ -1,0 +1,14 @@
+DONE!
+
+GameAP file path: /var/ww/gameap
+
+Database root password: rJ4LhbvUErOEcXAcUA
+Database name: gameap
+Database user name: gameap
+Database user password: dKhaP5OEhEWMkJ7S9e
+
+Administrator credentials
+Login: admin
+Password: xZO7xDA1NqQTJ8fqYN
+
+Host: http://ec2-18-225-36-3.us-east-2.compute.amazonaws.com
