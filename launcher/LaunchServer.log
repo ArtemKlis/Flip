@@ -1,0 +1,299 @@
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:24:29 [INFO] Setting up server script engine bindings
+2020.08.18 18:24:29 [INFO] JLine2 terminal enabled
+2020.08.18 18:24:29 [INFO] Generating RSA keypair
+2020.08.18 18:24:30 [INFO] Writing RSA keypair files
+2020.08.18 18:24:30 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:24:30 [INFO] Reading LaunchServer config file
+2020.08.18 18:24:30 [INFO] Unpacking launcher runtime files
+2020.08.18 18:24:30 [INFO] Syncing launcher binaries
+2020.08.18 18:24:30 [INFO]  Syncing launcher binary file
+2020.08.18 18:24:30 [WARN]  Missing launcher binary file
+2020.08.18 18:24:30 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:24:30 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:24:30 [INFO] Syncing updates dir
+2020.08.18 18:24:30 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:24:31 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:24:32 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:24:33 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:24:33 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:24:34 [INFO] Syncing profiles dir
+2020.08.18 18:24:34 [INFO] Starting server socket thread
+2020.08.18 18:24:34 [INFO] Server socket thread successfully started
+2020.08.18 18:28:34 [INFO] Command ''
+2020.08.18 18:28:36 [INFO] Command ''
+2020.08.18 18:29:25 [INFO] Command 'downloadAsset 1.8.8 "asset1.8.8"'
+2020.08.18 18:29:25 [ERROR] java.lang.IllegalArgumentException: Unknown client version: '1.8.8'
+2020.08.18 18:29:31 [INFO] Command 'downloadAsset 1.8.9 "asset1.8.9"'
+2020.08.18 18:29:31 [INFO]  Creating asset dir: 'asset1.8.9'
+2020.08.18 18:29:31 [INFO]  Downloading asset, it may take some time
+2020.08.18 18:29:31 [INFO] Syncing updates dir
+2020.08.18 18:29:31 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:29:32 [INFO]  Asset successfully downloaded: 'asset1.8.9'
+2020.08.18 18:35:20 [INFO] Command 'downloadClient 1.8.9 "Survival"'
+2020.08.18 18:35:20 [INFO]  Creating client dir: 'Survival'
+2020.08.18 18:35:20 [INFO]  Downloading client, it may take some time
+2020.08.18 18:35:20 [INFO]  Creaing profile file: 'Survival'
+2020.08.18 18:35:20 [INFO] Syncing profiles dir
+2020.08.18 18:35:20 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:35:20 [INFO] Syncing updates dir
+2020.08.18 18:35:20 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:35:20 [INFO]  Client successfully downloaded: 'Survival'
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:40:28 [INFO] Setting up server script engine bindings
+2020.08.18 18:40:28 [INFO] JLine2 terminal enabled
+2020.08.18 18:40:28 [INFO] Reading RSA keypair
+2020.08.18 18:40:28 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:40:28 [INFO] Reading LaunchServer config file
+2020.08.18 18:40:29 [INFO] Syncing launcher binaries
+2020.08.18 18:40:29 [INFO]  Syncing launcher binary file
+2020.08.18 18:40:29 [WARN]  Missing launcher binary file
+2020.08.18 18:40:29 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:40:29 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:40:29 [INFO] Syncing updates dir
+2020.08.18 18:40:29 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:40:29 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:40:30 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:40:30 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:40:31 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:40:32 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:40:33 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:40:33 [INFO] Syncing profiles dir
+2020.08.18 18:40:33 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:40:33 [INFO] Starting server socket thread
+2020.08.18 18:40:33 [ERROR] java.net.BindException: Address already in use: JVM_Bind
+2020.08.18 18:40:33 [INFO] Closing server socket listener
+2020.08.18 18:40:33 [INFO] Writing auth handler file (0 entries)
+2020.08.18 18:40:33 [INFO] LaunchServer stopped
+2020.08.18 18:40:44 [INFO] Command 'build'
+2020.08.18 18:40:44 [INFO] Building launcher binary file
+2020.08.18 18:40:45 [INFO] Building launcher EXE binary file (Using Launch4J)
+2020.08.18 18:40:45 [WARN] Missing favicon.ico file
+2020.08.18 18:40:45 [INFO]  Compiling resources
+2020.08.18 18:40:45 [INFO]  Generated resource file...
+
+2020.08.18 18:40:45 [INFO]  LANGUAGE 0, 1
+1 VERSIONINFO
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEFLAGSMASK 0
+FILEOS 0x40000
+FILETYPE 1
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", ""
+   VALUE "FileDescription", "sashok724's Launcher v3"
+   VALUE "FileVersion", "15.4, build 81-obf, 03.05.17"
+   VALUE "InternalName", "Launcher"
+   VALUE "LegalCopyright", "© sashok724 LLC"
+   VALUE "LegalTrademarks", "This product is licensed under WTFPL 2.0"
+   VALUE "OriginalFilename", "Launcher.exe"
+   VALUE "ProductName", "sashok724's Launcher v3"
+   VALUE "ProductVersion", "15.4, build 81-obf, 03.05.17"
+  }
+ }
+BLOCK "VarFileInfo"
+{
+VALUE "Translation", 0x0409, 0x04E4
+}
+}2 RCDATA BEGIN "1.8.0\0" END
+18 RCDATA BEGIN "1\0" END
+30 RCDATA BEGIN "2\0" END
+10 RCDATA BEGIN "JVM Error\0" END
+21 RCDATA BEGIN "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html\0" END
+8 RCDATA BEGIN ".\0" END
+20 RCDATA BEGIN "32\0" END
+101 RCDATA BEGIN "An error occurred while starting the application.\0" END
+102 RCDATA BEGIN "This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.\0" END
+103 RCDATA BEGIN "This application requires a Java Runtime Environment\0" END
+104 RCDATA BEGIN "The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.\0" END
+17 RCDATA BEGIN "true\0" END
+
+2020.08.18 18:40:45 [ERROR] java.io.IOException: net.sf.launch4j.BuilderException: net.sf.launch4j.ExecException: java.io.IOException: Cannot run program "F:\ЗАГРУЗКИ\ПРОЕКТ GolDeNSword\launcher\launcher\launcher\libraries\launch4j\bin\windres.exe": CreateProcess error=2, Не удается найти указанный файл
+2020.08.18 18:46:36 [INFO] Command 'build'
+2020.08.18 18:46:36 [INFO] Building launcher binary file
+2020.08.18 18:46:37 [INFO] Building launcher EXE binary file (Using Launch4J)
+2020.08.18 18:46:37 [WARN] Missing favicon.ico file
+2020.08.18 18:46:37 [INFO]  Compiling resources
+2020.08.18 18:46:37 [INFO]  Generated resource file...
+
+2020.08.18 18:46:37 [INFO]  LANGUAGE 0, 1
+1 VERSIONINFO
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEFLAGSMASK 0
+FILEOS 0x40000
+FILETYPE 1
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "CompanyName", ""
+   VALUE "FileDescription", "sashok724's Launcher v3"
+   VALUE "FileVersion", "15.4, build 81-obf, 03.05.17"
+   VALUE "InternalName", "Launcher"
+   VALUE "LegalCopyright", "© sashok724 LLC"
+   VALUE "LegalTrademarks", "This product is licensed under WTFPL 2.0"
+   VALUE "OriginalFilename", "Launcher.exe"
+   VALUE "ProductName", "sashok724's Launcher v3"
+   VALUE "ProductVersion", "15.4, build 81-obf, 03.05.17"
+  }
+ }
+BLOCK "VarFileInfo"
+{
+VALUE "Translation", 0x0409, 0x04E4
+}
+}2 RCDATA BEGIN "1.8.0\0" END
+18 RCDATA BEGIN "1\0" END
+30 RCDATA BEGIN "2\0" END
+10 RCDATA BEGIN "JVM Error\0" END
+21 RCDATA BEGIN "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html\0" END
+8 RCDATA BEGIN ".\0" END
+20 RCDATA BEGIN "32\0" END
+101 RCDATA BEGIN "An error occurred while starting the application.\0" END
+102 RCDATA BEGIN "This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.\0" END
+103 RCDATA BEGIN "This application requires a Java Runtime Environment\0" END
+104 RCDATA BEGIN "The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.\0" END
+17 RCDATA BEGIN "true\0" END
+
+2020.08.18 18:46:37 [ERROR] java.io.IOException: net.sf.launch4j.BuilderException: net.sf.launch4j.ExecException: java.io.IOException: Cannot run program "F:\ЗАГРУЗКИ\ПРОЕКТ GolDeNSword\launcher\launcher\launcher\libraries\launch4j\bin\windres.exe": CreateProcess error=2, Не удается найти указанный файл
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:51:28 [INFO] Setting up server script engine bindings
+2020.08.18 18:51:28 [INFO] JLine2 terminal enabled
+2020.08.18 18:51:28 [INFO] Reading RSA keypair
+2020.08.18 18:51:28 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:51:28 [INFO] Reading LaunchServer config file
+2020.08.18 18:51:28 [INFO] Reading auth handler file: 'authHandler.cfg'
+2020.08.18 18:51:28 [INFO] Syncing launcher binaries
+2020.08.18 18:51:28 [INFO]  Syncing launcher binary file
+2020.08.18 18:51:28 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:51:28 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:51:28 [INFO] Syncing updates dir
+2020.08.18 18:51:28 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:51:28 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:51:29 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:51:30 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:51:31 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:51:32 [INFO]  Syncing 'jre-8u131-win64' update dir
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:51:34 [INFO] Setting up server script engine bindings
+2020.08.18 18:51:34 [INFO] JLine2 terminal enabled
+2020.08.18 18:51:34 [INFO] Reading RSA keypair
+2020.08.18 18:51:34 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:51:34 [INFO] Reading LaunchServer config file
+2020.08.18 18:51:34 [INFO] Reading auth handler file: 'authHandler.cfg'
+2020.08.18 18:51:34 [INFO] Syncing launcher binaries
+2020.08.18 18:51:34 [INFO]  Syncing launcher binary file
+2020.08.18 18:51:34 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:51:34 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:51:34 [INFO] Syncing updates dir
+2020.08.18 18:51:34 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:51:34 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:51:35 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:51:36 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:51:37 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:51:37 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:51:38 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:51:38 [INFO] Syncing profiles dir
+2020.08.18 18:51:38 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:51:38 [INFO] Starting server socket thread
+2020.08.18 18:51:38 [ERROR] java.net.BindException: Address already in use: JVM_Bind
+2020.08.18 18:51:38 [INFO] Closing server socket listener
+2020.08.18 18:51:38 [INFO] Writing auth handler file (0 entries)
+2020.08.18 18:51:38 [INFO] LaunchServer stopped
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:51:47 [INFO] Setting up server script engine bindings
+2020.08.18 18:51:47 [INFO] JLine2 terminal enabled
+2020.08.18 18:51:47 [INFO] Reading RSA keypair
+2020.08.18 18:51:47 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:51:47 [INFO] Reading LaunchServer config file
+2020.08.18 18:51:47 [INFO] Reading auth handler file: 'authHandler.cfg'
+2020.08.18 18:51:47 [INFO] Syncing launcher binaries
+2020.08.18 18:51:47 [INFO]  Syncing launcher binary file
+2020.08.18 18:51:48 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:51:48 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:51:48 [INFO] Syncing updates dir
+2020.08.18 18:51:48 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:51:48 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:51:49 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:51:50 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:51:50 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:51:51 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:51:52 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:51:52 [INFO] Syncing profiles dir
+2020.08.18 18:51:52 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:51:52 [INFO] Starting server socket thread
+2020.08.18 18:51:52 [ERROR] java.net.BindException: Address already in use: JVM_Bind
+2020.08.18 18:51:52 [INFO] Closing server socket listener
+2020.08.18 18:51:52 [INFO] Writing auth handler file (0 entries)
+2020.08.18 18:51:52 [INFO] LaunchServer stopped
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:52:03 [INFO] Setting up server script engine bindings
+2020.08.18 18:52:03 [INFO] JLine2 terminal enabled
+2020.08.18 18:52:03 [INFO] Reading RSA keypair
+2020.08.18 18:52:03 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:52:03 [INFO] Reading LaunchServer config file
+2020.08.18 18:52:03 [INFO] Reading auth handler file: 'authHandler.cfg'
+2020.08.18 18:52:03 [INFO] Syncing launcher binaries
+2020.08.18 18:52:03 [INFO]  Syncing launcher binary file
+2020.08.18 18:52:03 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:52:03 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:52:03 [INFO] Syncing updates dir
+2020.08.18 18:52:03 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:52:03 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:52:04 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:52:05 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:52:06 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:52:11 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:52:12 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:52:12 [INFO] Syncing profiles dir
+2020.08.18 18:52:12 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:52:12 [INFO] Starting server socket thread
+2020.08.18 18:52:12 [ERROR] java.net.BindException: Address already in use: JVM_Bind
+2020.08.18 18:52:12 [INFO] Closing server socket listener
+2020.08.18 18:52:12 [INFO] Writing auth handler file (0 entries)
+2020.08.18 18:52:12 [INFO] LaunchServer stopped
+2020.08.18 18:55:08 [INFO] Command 'syncupdates'
+2020.08.18 18:55:08 [ERROR] Unknown command: 'syncupdates'
+2020.08.18 18:55:16 [INFO] Command 'syncUpdates'
+2020.08.18 18:55:16 [INFO] Syncing updates dir
+2020.08.18 18:55:16 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:55:16 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:55:17 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:55:18 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:55:18 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:55:19 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:55:20 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:55:20 [INFO]  Updates dir successfully resynced
+2020.08.18 18:55:29 [INFO] Command 'syncProfiles'
+2020.08.18 18:55:29 [INFO] Syncing profiles dir
+2020.08.18 18:55:29 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:55:29 [INFO]  Profiles successfully resynced
+2020.08.18 18:55:29 [INFO] Command ''
+sashok724's LaunchServer v15.4 (build #81-obf, 03.05.17)
+2020.08.18 18:56:55 [INFO] Setting up server script engine bindings
+2020.08.18 18:56:55 [INFO] JLine2 terminal enabled
+2020.08.18 18:56:55 [INFO] Reading RSA keypair
+2020.08.18 18:56:55 [INFO]  Modulus CRC32: 0x0df1c720
+2020.08.18 18:56:55 [INFO] Reading LaunchServer config file
+2020.08.18 18:56:55 [INFO] Reading auth handler file: 'authHandler.cfg'
+2020.08.18 18:56:55 [INFO] Syncing launcher binaries
+2020.08.18 18:56:55 [INFO]  Syncing launcher binary file
+2020.08.18 18:56:55 [INFO]  Syncing launcher EXE binary file
+2020.08.18 18:56:55 [WARN]  Missing launcher EXE binary file
+2020.08.18 18:56:55 [INFO] Syncing updates dir
+2020.08.18 18:56:55 [INFO]  Syncing 'asset1.8.9' update dir
+2020.08.18 18:56:55 [INFO]  Syncing 'jre-8u131-linux32' update dir
+2020.08.18 18:56:56 [INFO]  Syncing 'jre-8u131-linux64' update dir
+2020.08.18 18:56:57 [INFO]  Syncing 'jre-8u131-macosx' update dir
+2020.08.18 18:56:58 [INFO]  Syncing 'jre-8u131-win32' update dir
+2020.08.18 18:56:58 [INFO]  Syncing 'jre-8u131-win64' update dir
+2020.08.18 18:56:59 [INFO]  Syncing 'Survival' update dir
+2020.08.18 18:56:59 [INFO] Syncing profiles dir
+2020.08.18 18:56:59 [INFO]  Syncing 'Survival.cfg' profile
+2020.08.18 18:56:59 [INFO] Starting server socket thread
+2020.08.18 18:56:59 [INFO] Server socket thread successfully started
