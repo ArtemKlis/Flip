@@ -1,2 +1,0 @@
-# sashok724 has accepted EULA for you
-eula=true
