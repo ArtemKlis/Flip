@@ -1,0 +1,90 @@
+<div class="form-block">
+
+	<div class="block-header">
+		<div class="block-name"><?php echo $this->lng_m['set_func']; ?></div>
+	</div>
+
+	<div class="block-line"></div>
+
+	<div class="adm-settings">
+		<form method="post"></form>
+		<ul class="nav nav-tabs" id="myTab">
+			<li><a href="<?php echo ADMIN_URL; ?>&do=settings&op=main"><?php echo $this->lng_m['set_main']; ?></a></li>
+			<li><a href="<?php echo ADMIN_URL; ?>&do=settings&op=pagin"><?php echo $this->lng_m['set_pagin']; ?></a></li>
+			<li><a href="<?php echo ADMIN_URL; ?>&do=settings&op=mail"><?php echo $this->lng_m['set_mail']; ?></a></li>
+			<li><a href="<?php echo ADMIN_URL; ?>&do=settings&op=search"><?php echo $this->lng_m['set_search']; ?></a></li>
+			<li class="active"><a href="<?php echo ADMIN_URL; ?>&do=settings&op=functions"><?php echo $this->lng_m['set_func']; ?></a></li>
+			<li><a href="<?php echo ADMIN_URL; ?>&do=settings&op=base"><?php echo $this->lng_m['set_base']; ?></a></li>
+		</ul>
+		 
+		<div class="tab-content">
+			<div class="tab-pane active">
+
+				<form class="form-horizontal" method="post">
+
+					<div class="control-group">
+						<label class="control-label" for="input_advice"><?php echo $this->lng_m['set_func_advice']; ?></label>
+						<div class="controls">
+							<select name="advice" class="span10" id="input_advice">
+								<option value="0"><?php echo $this->lng['no']; ?></option>
+								<option value="1" <?php echo $data['ADVICE']; ?>><?php echo $this->lng['yes']; ?></option>
+							</select>
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="input_breadcrumbs"><?php echo $this->lng_m['set_funt_bc']; ?></label>
+						<div class="controls">
+							<select name="breadcrumbs" class="span10" id="input_breadcrumbs">
+								<option value="0"><?php echo $this->lng['no']; ?></option>
+								<option value="1" <?php echo $data['BREADCRUMBS']; ?>><?php echo $this->lng['yes']; ?></option>
+							</select>
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="input_close"><?php echo $this->lng_m['set_funt_close']; ?></label>
+						<div class="controls">
+							<select name="close" class="span10" id="input_close">
+								<option value="0"><?php echo $this->lng['no']; ?></option>
+								<option value="1" <?php echo $data['CLOSE']; ?>><?php echo $this->lng['yes']; ?></option>
+							</select>
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="input_close_time"><?php echo $this->lng_m['set_funt_close_time']; ?></label>
+						<div class="controls">
+							<input type="text" name="close_time" class="span10" id="input_close_time" value="<?php echo $data['CLOSE_TIME']; ?>">
+						</div>
+					</div>
+
+					<div class="control-group">
+						<label class="control-label" for="input_reglimit"><?php echo $this->lng_m['set_funt_reglimit']; ?></label>
+						<div class="controls">
+							<input type="text" name="input_reglimit" class="span10" id="input_reglimit" value="<?php echo $data['REGLIMIT']; ?>">
+						</div>
+					</div>
+
+					<div class="control-group">
+						<div class="controls">
+							<button type="submit" name="submit" class="btn"><?php echo $this->lng['save']; ?></button>
+						</div>
+					</div>
+
+				</form>
+			
+			</div>
+		</div>
+	</div>
+		
+</div>
+
+<script>
+	$('#input_close_time').datetimepicker({
+		lang:'ru',
+		timepicker:true,
+		value:'',
+		format:'d.m.Y H:i:s'
+	});
+</script>

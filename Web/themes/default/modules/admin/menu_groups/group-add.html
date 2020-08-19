@@ -1,0 +1,47 @@
+<div class="form-block menu-group-change">
+
+	<div class="block-header">
+		<div class="block-name"><?php echo $data['PAGE']; ?></div>
+	</div>
+
+	<div class="block-line"></div>
+
+	<form class="form-horizontal" method="post">
+		<div class="control-group">
+			<label class="control-label" for="inputTitle"><?php echo $this->lng_m['mgrp_field_name']; ?></label>
+			<div class="controls">
+				<input type="text" class="span10" name="title" value="<?php echo $data['TITLE']; ?>" id="inputTitle" placeholder="<?php echo $this->lng_m['mgrp_field_name']; ?>" required>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label class="control-label" for="textareaText"><?php echo $this->lng_m['mgrp_field_desc']; ?></label>
+			<div class="controls">
+				<textarea name="text" class="span10" placeholder="<?php echo $this->lng_m['mgrp_field_desc']; ?>" rows="8" maxlength="255" id="textareaText"><?php echo $data['TEXT']; ?></textarea>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label class="control-label" for="selectPerm"><?php echo $this->lng_m['mgrp_field_access']; ?></label>
+			<div class="controls">
+				<select size="6" class="span10" name="permissions" id="selectPerm">
+					<?php echo $data['PERMISSIONS']; ?>
+				</select>
+			</div>
+		</div>
+
+		<div class="control-group">
+			<label class="control-label" for="inputPriority"><?php echo $this->lng_m['mgrp_field_priority']; ?></label>
+			<div class="controls">
+				<input type="text" class="span10" name="priority" value="<?php echo $data['PRIORITY']; ?>" pattern="^\d+$" id="inputPriority" placeholder="<?php echo $this->lng_m['mgrp_field_priority']; ?>">
+			</div>
+		</div>
+
+		<div class="control-group">
+			<div class="controls">
+				<button type="submit" class="btn" name="submit"><?php echo $data['BUTTON']; ?></button>
+			</div>
+		</div>
+	</form>
+		
+</div>

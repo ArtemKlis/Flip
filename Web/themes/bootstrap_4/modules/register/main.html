@@ -1,0 +1,51 @@
+<div class="form-block">
+	<div class="block-header"><?php echo $this->lng_m['mod_name']; ?></div>
+	<div class="block-line"></div>
+
+	<div class="mcr-register">
+		<form method="post">
+
+			<div class="form-group">
+				<label for="inputLogin"><?php echo $this->lng['login']; ?></label>
+				<input type="text" class="form-control" name="login" id="inputLogin" pattern="^[a-zA-Z0-9-_]{3,}$" maxlength="32" placeholder="<?php echo $this->lng['login']; ?>" required>
+			</div>
+
+			<div class="form-group">
+				<label for="inputEmail"><?php echo $this->lng['email']; ?></label>
+				<input type="text" class="form-control" name="email" id="inputEmail" placeholder="<?php echo $this->lng['email']; ?>" required>
+			</div>
+
+			<div class="form-group">
+				<label for="inputPassword"><?php echo $this->lng['pass']; ?></label>
+				<input type="password" class="form-control" name="password" id="inputPassword" pattern="^[^']{6,}$" placeholder="<?php echo $this->lng['pass']; ?>" required>
+			</div>
+
+			<div class="form-group">
+				<label for="inputRePassword"><?php echo $this->lng_m['repass']; ?></label>
+				<input type="password" class="form-control" name="repassword" id="inputRePassword" pattern="^[^']{6,}$" placeholder="<?php echo $this->lng_m['repass']; ?>" required>
+			</div>
+
+			<div class="form-group">
+				<label for="inputGender"><?php echo $this->lng['gender']; ?></label>
+				<select name="gender" class="form-control" id="inputGender">
+					<option value="0"><?php echo $this->lng['gender_m']; ?></option>
+					<option value="1"><?php echo $this->lng['gender_w']; ?></option>
+				</select>
+			</div>
+
+			<?php echo $this->captcha(); ?>
+
+			<div class="form-group">
+				<textarea rows="5" class="form-control" readonly><?php echo $this->sp("rules.txt"); ?></textarea>
+			</div>
+
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" name="accept" value="1" required> <?php echo $this->lng_m['accept']; ?>
+				</label>
+			</div>
+
+			<button type="submit" id="postbut" name="submit" class="btn btn-primary btn-block"><?php echo $this->lng_m['btn']; ?></button>
+		</form>
+	</div>
+</div>
